@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/frazable/static/css/main.7aa0f0c4.css",
+    "main.js": "/frazable/static/js/main.035b2c7d.js",
+    "static/js/787.ce31d90f.chunk.js": "/frazable/static/js/787.ce31d90f.chunk.js",
+    "index.html": "/frazable/index.html",
+    "main.7aa0f0c4.css.map": "/frazable/static/css/main.7aa0f0c4.css.map",
+    "main.035b2c7d.js.map": "/frazable/static/js/main.035b2c7d.js.map",
+    "787.ce31d90f.chunk.js.map": "/frazable/static/js/787.ce31d90f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7aa0f0c4.css",
+    "static/js/main.035b2c7d.js"
+  ]
+}
