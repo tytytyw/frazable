@@ -1,0 +1,66 @@
+.section
+    display: flex
+    padding: 2rem 1rem 3rem 1rem
+    background: #085078
+    background: -webkit-linear-gradient(#085078, #85D8CE 90%)
+    background: linear-gradient(#085078, #85D8CE 90%)
+
+    .textWrapper
+        flex-grow: 3
+        padding: 0 10rem
+        .title
+            font-size: 4rem
+            text-align: left
+            margin: 2rem 0
+            line-height: 1.2
+            letter-spacing: .3rem
+        .text
+            text-align: left
+            width: 78%
+            font-size: 1.1rem
+    .animationWrapper
+        flex-grow: 2
+        flex-basis: 40%
+        min-width: 33%
+        border: 1px dashed gray
+        display: flex
+        align-items: center
+        justify-content: center
+    .buttonsWrapper
+        position: absolute
+        width: max-content
+        left: 50vw
+        transform: translateX(-50%)
+        margin: 4rem
+        .smallText
+            font-size: .8rem
+            font-weight: 300
+        .buttons
+            display: flex
+            align-items: center
+            justify-content: center
+            margin: .8rem 0
+            .googleSingUp
+                background: #085078
+                padding: .8rem
+                border-radius: 2rem
+                cursor: pointer
+                transition: background .2s ease
+                border: none
+                color: #fff
+                line-height: 1
+                font-size: 1rem
+            .separator
+                margin: 0 .5rem
+.section_two
+    background: #85D8CE
+    padding-top: 5rem
+    background: -webkit-linear-gradient(#85D8CE 0%, #085078 50%, #010953 90%)
+    background: linear-gradient(#85D8CE 0%, #085078 50%, #010953 90%)
+    .textWrapper
+        .text
+            width: 63%
+
+@media (max-width: 560px)
+    .section
+        flex-direction: column
