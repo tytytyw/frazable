@@ -1,0 +1,28 @@
+.Header
+    display: flex
+    align-items: stretch
+    justify-content: space-around
+    padding: 1rem
+    .nav
+        display: flex
+        align-items: center
+        justify-content: center
+        flex-grow: 3
+        .link
+            cursor: pointer
+            &:not(:last-child)
+                margin-right: 1rem
+        .title
+            font-size: 2rem
+            margin-right: 3rem
+            font-weight: 500
+            line-height: 1
+    .loginWrapper
+        display: flex
+        justify-content: center
+        align-items: center
+        flex-grow: 2
+        .loginWrapper__item
+            cursor: pointer
+            &:not(:last-child)
+                margin-right: 1rem
